@@ -1,5 +1,9 @@
 body{
-	background: #CCCCCC;
+	
+}
+
+.titulo-principal{
+	padding-left: 30px;
 }
 
 #banner{
@@ -7,7 +11,12 @@ body{
 
 }
 
-h1{
+.principal{
+	background: #CCCCCC;
+	padding: 20px;
+}
+
+.titulo-centralizado{
 	text-align: center;
 }
 
@@ -23,7 +32,22 @@ em strong{
 	font-size: 20px;
 }
 
+.diferenciales{
+	background: #FFFFFF;
+	padding: 30px;
+}
+
 .items{
 	font-style: italic;
 
+}
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagenDiferenciales{
+	width: 50%;
 }
