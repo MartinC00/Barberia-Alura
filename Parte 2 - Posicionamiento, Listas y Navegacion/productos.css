@@ -1,0 +1,29 @@
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+/*	aumenta el "borde" superior e inferior en 20px y 0 izq der*/}
+
+.caja{
+	width: 940px;
+	position: relative;
+	margin: 0 auto; 
+/*	0 para superior inferior y auto para izq der*/}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+nav a{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
