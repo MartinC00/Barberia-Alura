@@ -1,13 +1,13 @@
 header{
 	background: #BBBBBB;
 	padding: 20px 0;
-/*	aumenta el "borde" superior e inferior en 20px y 0 izq der*/}
+}
 
 .caja{
 	width: 940px;
 	position: relative;
 	margin: 0 auto; 
-/*	0 para superior inferior y auto para izq der*/}
+}
 
 nav{
 	position: absolute;
@@ -153,4 +153,34 @@ td, th{
 	border: 1px solid black;
 	padding: 8px 15px;
 	font-size: 18px;
+}
+
+/*------------ CSS PARA HOME ------------*/
+
+
+.banner{
+	width: 100%;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;	
+}
+
+.principal p{
+	margin: 0 0 1em;
+}
+
+.principal strong{
+	font-weight: bold;
+}
+
+.principal em{
+	font-style: italic;
+}
+
+.imagenDiferenciales{
+	width: 60%;
+	
 }
