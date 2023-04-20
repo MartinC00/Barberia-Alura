@@ -1,11 +1,9 @@
-html{
-	background: #DDDDDD;
-}
 body{
 	font-family: 'Montserrat', sans-serif;
 }
+
 header{
-	background: #BBBBBB;
+	background-color: #BBBBBB;
 	padding: 20px 0;
 }
 
@@ -24,8 +22,8 @@ nav{
 nav li{
 	display: inline;
 	margin: 0 0 0 15px;
-
 }
+
 nav a{
 	text-transform: uppercase;
 	color: black;
@@ -55,14 +53,11 @@ nav a:hover{
 	box-sizing: border-box;
 	border: 2px solid black;
 	border-radius: 10px;
-
 }
 
 .productos li:hover{
 	border-color: #c78c19;
 }
-
-
 
 .productos li:active{
 	border-color: #088c19;
@@ -98,11 +93,6 @@ footer{
 	color: white;
 	font-size: 16px;
 	margin: 20px;
-}
-
-main{
-	width: 940px;
-	margin: 0 auto;
 }
 
 form{
@@ -162,10 +152,15 @@ td, th{
 }
 
 /*------------ CSS PARA HOME ------------*/
-
-
 .banner{
 	width: 100%;
+}
+
+.principal{
+	padding: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .titulo-principal{
@@ -195,6 +190,7 @@ td, th{
 
 .mapa{
 	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
 }
 
 .mapa p{
@@ -202,9 +198,43 @@ td, th{
 	text-align: center;
 }
 
-.imagenDiferenciales{
-	width: 60%;
+.mapa-contenido{
+	width: 940px;
+	margin: 0 auto;
+}
 
+
+.diferenciales{
+	padding: 3em 0;
+	background: #888888;
+}
+
+.contenido-diferenciales{
+	width: 640px;
+	margin: 0 auto;
+}
+
+/*La imagen tiene el 60%, la lista ocupara el 40% de los 640px definididos para todo el bloque contenido-diferenciales*/
+
+.lista-diferenciales{
+	width: 40%;
+	display: inline-block; /*inline-block hace una lectura del codigo HTML, si lo coloco todo seguido sin saltos del linea, dara el efecto deseado*/
+	vertical-align: top;
+}
+
+.items{
+	line-height: 1.5;
+}
+
+.items:first-child{
+	font-weight: bold;
+}
+.items:before{
+	content:"★";
+}
+
+.imagen-diferenciales{
+	width: 60%;
 }
 
 .video{
