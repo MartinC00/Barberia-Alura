@@ -1,3 +1,4 @@
+
 body{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -5,6 +6,10 @@ body{
 header{
 	background-color: #BBBBBB;
 	padding: 20px 0;
+}
+
+.main-contacto{
+	margin-left: 1em;
 }
 
 .caja{
@@ -64,12 +69,12 @@ nav a:hover{
 }
 
 .productos h2{
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: bold;
 }
 
 .productos li:hover h2{
-	font-size: 33px;
+	font-size: 29px;
 }
 
 .producto-descripcion{
@@ -81,7 +86,6 @@ nav a:hover{
 	font-weight: bold;
 	margin-top: 10px;
 }
-
 
 footer{
 	text-align: center;
@@ -95,8 +99,11 @@ footer{
 	margin: 20px;
 }
 
+/*-------- CSS PARA CONTACTO -------- */
+
 form{
 	margin: 40px 0;
+
 }
 
 form label, form legend{
@@ -134,12 +141,11 @@ form label, form legend{
 	transform: scale(1.2);
 }
 
-table{
-	margin: 40px 40px;
+.tabla-contacto{
+	margin: 40px 7%;
 	position: relative;
-	left: 45px;
-
 }
+
 thead{
 	background: #555555;
 	color: white;
@@ -264,8 +270,13 @@ td, th{
 		margin: 0 0;
 	}
 
-	.caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+	.caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .productos, .productos li, .enviar{
 		width: auto;
+		margin: 0 auto;
+	}
+
+	.tabla-contacto{
+		margin: 10% 0;
 	}
 
 	.mapa{
