@@ -15,7 +15,7 @@ El sitio de la Barberia Alura es el resultado final de 4 cursos de HTML5 y CSS3:
 
 * Parte 3 : Se agrega una pagina de contacto, se trabaja con form y table y se utilizan estilos interesantes como scale y transition.
 
-* Parte 4 : Se perfecciona la homepage a la luz de los nuevos conocimientos y se incorporan recursos externos como fuentes (google fonts), mapas (google maps api) y videos. Se enseña a crear media query para un diseño responsive.
+* Parte 4 : Se perfecciona la homepage a la luz de los nuevos conocimientos y se incorporan recursos externos como fuentes (google fonts), mapas (google maps api) y videos. Se enseña a crear media querys para un diseño responsive.
 
 Nota: el sitio no posee funcionalidad dado que los cursos se centran en el aprendizaje de HTML5 y CSS3.
 
