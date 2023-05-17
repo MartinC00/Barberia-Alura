@@ -7,6 +7,8 @@ El sitio de la Barbería Alura es el resultado final de 4 cursos de HTML5 y CSS3
 * Parte 3: Trabajando con formularios y listas
 * Parte 4: Avanzando en CSS
 
+Los mismos pertenecen a la primera parte del programa ONE.
+
 # ✂ DETALLE
 
 * Parte 1 : Se realiza una homepage básica para la barbería Alura.
